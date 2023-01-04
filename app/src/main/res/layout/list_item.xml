@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginStart="200dp"
+    android:elevation="12dp"
+    app:cardCornerRadius="24dp"
+    android:id="@+id/compcard"
+    >
+
+    <FrameLayout
+
+        android:backgroundTint="#c8e6c9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="8dp"
+            tools:src="@drawable/comp" />
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_marginStart="120dp"
+            android:gravity="center"
+            android:textColor="#1b5e20"
+            android:textSize="24sp"
+            android:text="max"
+            tools:text="max :" />
+
+        <TextView
+android:text="min"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_marginStart="120dp"
+            android:gravity="bottom"
+            android:textColor="#1b5e20"
+            android:textSize="24sp"
+            tools:text="min :" />
+
+        <Button
+
+            android:id="@+id/toMeet"
+            android:backgroundTint="#4caf50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="More" />
+
+        <TextView
+            android:id="@+id/compname"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_marginStart="120dp"
+            android:gravity="top"
+            android:textColor="#1b5e20"
+            android:textSize="30sp"
+            tools:text="Company" />
+
+        <TextView
+            android:id="@+id/compmax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="42dp"
+            android:text="TextView"
+            android:textColor="#1b5e20" />
+
+        <TextView
+            android:id="@+id/compmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="72dp"
+            android:text="TextView"
+            android:textColor="#1b5e20" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

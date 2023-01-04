@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/meetingcard"
+    android:layout_margin="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    app:cardCornerRadius="24dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:orientation="vertical">
+
+ <TextView
+
+     android:layout_marginStart="130dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/tvcompname"
+     android:textColor="#51C7A9"
+android:textStyle="bold"
+    android:textSize="24sp"
+    tools:text="Companyname"
+        />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Number: "
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvres"
+            android:textColor="#51C7A9"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            tools:text="Companyname"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" selected package:"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:id="@+id/tvcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#51C7A9"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            tools:text="Companyname"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rescheduled:"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvavtime"
+            android:textColor="#51C7A9"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            tools:text="Companyname"
+            android:layout_marginStart="15dp"
+
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="selected time:"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvattu"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textColor="#51C7A9"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Companyname" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments:"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvpack"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#51C7A9"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            tools:text="Companyname"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
